@@ -1,0 +1,237 @@
+.entryBlock{
+    height: 40rem;
+    background-color: #F2F3F7;
+}
+.entryInform{
+    width: 60%;
+    height: 60%;
+  }
+  .entryInform h1{
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 550;
+    line-height: 60px;
+  }
+  .entryBtn{
+    font-size: 14px;
+    color: white;
+  }
+  .entryFooterText{
+    font-family:sans-serif;  
+    font-size: 14px;  
+  }
+  .stepperBlock{
+    width: 60%;
+    min-height: 85vh;
+    margin: 0px auto;
+  }
+  .educationalBlock{
+    height: 70vh;
+  }
+  .stepperFooter,.educationalAdd{
+    height: 70px;
+    border-radius:10px;
+  }
+    
+  .educationalContent{
+    height: 55%;
+    border-radius: 10px;
+  }
+  .educationalContent table{
+    width: 90%;
+    height: 100%;
+  }
+  .educationalContent table th{
+    width: 35%;
+  }
+  .educationalContent table td{
+    width: 65%;
+  }
+  .educationalBtn{
+    font-size: 19px;
+    width: 25%;
+    height: 70%;
+  }
+  .stepperFooterBtn{
+    font-size: 16px;
+    width: 25%;
+    height: 70%;
+  }
+  .stepper{
+    width: 22%;
+    height: 70px;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+  }
+  .steppers{
+    height: 20%;
+    overflow: hidden;
+  }
+  .activeStepper{
+    width: 22%;
+    height: 70px;
+    text-decoration: none;
+    text-align: center;
+    color:skyblue;
+  }
+  .stepper i, .activeStepper i{
+    color:skyblue;
+    font-size: 27px;
+  }
+  .checkmark{
+    width: 200px;
+  }
+  .addEducationInput{
+    width: 48%;
+  }
+  .personalCard {
+    width: 70%;
+  }
+  
+  .label_card_top {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .label_card_bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .label_card_left .label_card_top,
+  label {
+    width: 46%;
+  }
+  
+  .select {
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .label_card_bottom input {
+    width: 100%;
+    font-weight: 500;
+  }
+  
+  
+  li {
+    margin: 10px;
+  
+  }
+  
+  .label_wrappers {
+    margin-top: 2rem;
+    display: flex;
+  }
+  
+  .label_wrappers_left {
+    width: 100%;
+    margin: 1rem -1rem 1rem 1rem;
+  
+  }
+  
+  .label_wrappers_bottom input {
+    width: 95%;
+    font-weight: 500;
+  }
+  
+  .label_wrappers_bottom label {
+    width: 50%;
+  }
+  
+  .label_case {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  @media only screen and (max-width:576px){
+    .entryInform{
+        width: 90%;
+        height: 80%;
+      }
+      .entryInform h1{
+        font-size: 22px;
+      }
+      .stepperBlock{
+        width: 100%;
+        height: auto;
+      }
+      .educationalBlock{
+        height: 100vh;
+      }
+      .educationalContent{
+        height: 70%;
+        border-radius: 10px;
+      }
+      .educationalContent table{
+        width: 100%;
+        height: 100%;
+        font-size: 13px;
+      }
+      .educationalContent table th{
+        width: 40%;
+      }
+      .educationalContent table td{
+        width: 60%;
+      }
+      .educationalBtn{
+        width: 30%;
+        font-size: 12px;
+        height: 60%;
+      }
+      .stepperFooterBtn{
+        height: 60%;
+        width: 40%;
+        font-size: 12px;
+      }
+      .stepper{
+        width: 22%;
+        height: 70px;
+        font-size: 11px;
+      }
+      .activeStepper{
+        font-size: 11px;
+      }
+      .addEducationInput{
+        width: 100%;
+      }
+      .personalCard {
+        width: 100%;
+      }
+    
+      .label_card_top {
+        display: contents;
+      }
+    
+      .label_left {
+        display: contents;
+      }
+    
+      .label_right {
+        display: contents;
+      }
+    
+    
+    
+      .label_card_bottom {
+        display: contents;
+      }
+    
+      .label_wrappers {
+        margin-top: 2rem;
+        display: contents;
+      }
+    
+      .label_wrappers_left {
+        width: 100%;
+        margin: 0;
+    
+      }
+    
+      .label_case {
+        display: contents;
+      }
+  }
